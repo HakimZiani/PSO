@@ -1,6 +1,6 @@
 #PSO: Particle swarm optimization
 #By Hakim Ziani
-# In this exemple the program find the Min, You can switch it easily 
+# In this exemple the program find out the Max, You can switch it easily 
 import time
 from math import sin
 import random
@@ -20,7 +20,7 @@ b=2
 #----------
 #Create a list of list which will contain the particles
 s=a+np.random.rand(N,2)*(b-a)
-# The objective fucntion
+# The objective fucntion : Banana Rosenberg
 obj = lambda x,y: -((1-x)**2+100*(y-x**2)**2)
 gbest=-99999
 pbest=s
