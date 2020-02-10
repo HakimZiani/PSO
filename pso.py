@@ -1,4 +1,6 @@
-#PSO: Particule swarm optimization
+#PSO: Particle swarm optimization
+#By Hakim Ziani
+# In this exemple the program find the Min, You can switch it easily 
 import time
 from math import sin
 import random
@@ -8,9 +10,9 @@ import numpy as np
 def extract(list,i):
     return [l[i] for l in list ]
 
-#number of particuls
+#Number of particls
 N=100
-#number of iterations
+#Number of iterations
 M=100
 #----------
 a=-1
